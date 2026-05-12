@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url("images/desktop/image-hero.jpg");
+    background-size: cover;
+    height: 600px;
+    padding-left: 500px;
+}
+.logo1{
+    display: flex;
+    padding-bottom: 400px;
+    padding-right: 500px;
+}
+.general{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-bottom: 400px;
+    padding-right: 50px;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    position: relative;
+    right: 1070px;
+    top: 30px;
+    color: aliceblue;
+    font-size:60px;
+    border: 1px solid white;
+}
+.container{
+    padding-right: 90px;
+    padding-left: 40px;
+}
+.immersive-paragraph{
+    width: 360px;
+    font-weight: 100;
+}
+.INTERACTIVE1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.leader1{
+    font-size: 70px;
+    font-weight: 200;
+}
+.load{
+    position: absolute;
+    background-color: white;
+    left: 650px;
+    top: 800px;
+    padding: 100px;
+}
+main p{
+    color: darkgray;
+}
+.legacy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    gap: 700px;
+}
+.create{
+    font-size: 50px;
+    font-weight: 200;
+    padding-right: 30px;
+}
+.button1{
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    position: relative;
+    right: 30px;
+}.earth{
+    display: flex;
+    align-items: center;
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    width: 205px;
+    height: 400px;
+    position: relative;
+    left: 100px;
+    bottom: 30px;
+}
+.dip{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+    padding-left: 45px;
+    padding-top: 280px;
+}
+.arcade1{
+    display: flex;
+    align-items: center;
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    width: 205px;
+    height: 400px;
+    position: relative;
+    left: 380px;
+    bottom: 430px;
+}
+.ade{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+    padding-left: 40px;
+    padding-top: 280px;
+}
+.soccer1{
+    display: flex;
+    align-items: center;
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    width: 205px;
+    height: 400px;
+    position: relative;
+    ;left: 650px;
+    bottom: 830px;
+}
+.vr1{
+    display: flex;
+    color: white;
+    font-size: 35px;
+    font-weight: 200;
+    padding-left: 40px;
+    padding-top: 280px;
+}
+.grid1{
+    display: flex;
+    align-items: center;
+    background-image: url("images/desktop/image-grid.jpg");
+    width: 205px;
+    height: 400px;
+    position:relative;
+    left: 930px;
+    bottom: 1230px;
+}
