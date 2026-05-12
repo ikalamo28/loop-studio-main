@@ -72,7 +72,6 @@ main p{
     align-items: center;
     justify-content: center;
     padding-top: 10px;
-    padding-bottom: 100px;
     gap: 700px;
 }
 .create{
@@ -86,67 +85,77 @@ main p{
     font-weight: 500;
     position: relative;
     right: 30px;
-}.earth{
+}
+.supreme1{
     display: flex;
     align-items: center;
-    background-image: url("images/desktop/image-deep-earth.jpg");
-    width: 205px;
-    height: 400px;
-    position: relative;
-    left: 100px;
-    bottom: 30px;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
-.dip{
+.supreme2{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+}
+.supreme1 p{
+    position: absolute;
+    margin-top: -130px;
     color: white;
     font-size: 35px;
+    padding-left: 20px;
     font-weight: 200;
-    padding-left: 45px;
-    padding-top: 280px;
 }
-.arcade1{
-    display: flex;
-    align-items: center;
-    background-image: url("images/desktop/image-night-arcade.jpg");
-    width: 205px;
-    height: 400px;
-    position: relative;
-    left: 380px;
-    bottom: 430px;
-}
-.ade{
-    display: flex;
+.supreme2 p{
+    position: absolute;
+    margin-top: -130px;
     color: white;
     font-size: 35px;
+    padding-left: 20px;
     font-weight: 200;
-    padding-left: 40px;
-    padding-top: 280px;
 }
-.soccer1{
+.end1{
     display: flex;
     align-items: center;
-    background-image: url("images/desktop/image-soccer-team.jpg");
-    width: 205px;
-    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
     position: relative;
-    ;left: 650px;
-    bottom: 830px;
+    padding-top: 20px;
+    padding-bottom:5px;
 }
-.vr1{
+.get{
     display: flex;
+    flex-direction: row;
+    gap: 30px;
     color: white;
-    font-size: 35px;
-    font-weight: 200;
-    padding-left: 40px;
-    padding-top: 280px;
+    position: relative;
+    right: 400px;
+    padding-top: 10px;
 }
-.grid1{
+.xi{
     display: flex;
-    align-items: center;
-    background-image: url("images/desktop/image-grid.jpg");
-    width: 205px;
-    height: 400px;
-    position:relative;
-    left: 930px;
-    bottom: 1230px;
+    position: relative;
+    right: 400px;
 }
+.end3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+}
+.end4{
+    color: white;
+    position: relative;
+    top: 40px;
+    right: 300px;
+}
+
+
+
+
