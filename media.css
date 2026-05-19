@@ -1,0 +1,19 @@
+@media screen and (max-width: 375px) {
+    .stay{
+        display: none;
+    }
+    .disappear{
+        display: block;
+        overflow-x: hidden;
+    }
+    .d{
+      width: 30px;
+      height: 30px;
+      background-color: black;      
+       
+    }
+
+
+
+
+}
