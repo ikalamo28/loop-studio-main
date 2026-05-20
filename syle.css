@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 .f{
-     display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     overflow-x: hidden;

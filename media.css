@@ -1,17 +1,154 @@
 @media screen and (max-width: 375px) {
-    .stay{
+    .stay {
         display: none;
     }
     .disappear{
         display: block;
         overflow-x: hidden;
     }
-    .d{
-      width: 30px;
-      height: 30px;
-      background-color: black;      
-       
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+    .mobile-g{
+        padding-top: 30px;
+        background-image: url("images/mobile/image-hero.jpg");
+        width: 375px;
+        height: 350px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .lg{
+        margin-left: 25px;
+        width: 100px;
+        height: 20px;    
+    }
+    .mobile2{
+        display: flex;
+        gap: 190px;
+    }
+    .gl{
+       height: 17px;
+       width: 25px; 
+    }
+    .imerse-g{
+        padding-top: 40px;
+        padding-left: 8vw;
+        width: 270px;
+        height: 200px;
+    }
+    .imerse-g p{
+        color: white;
+        font-size: 35px;
+        font-weight: 200;
+        border: 1px solid white;
+        padding: 5px 10px 1px 5px;
+    }
+    main{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .int img{
+        width: 350px;
+        height: 250px;
+    }
+    .silver{
+        font-size: 10px;
+    }
+    .silver h4{
+        font-size: 20px;
+        font-weight: 200;
+        padding-left: 70px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .role1{
+        height: 100px;
+        width: 350px;
+    }
+    .role p{
+        color: white;
+        position: absolute;
+        margin-top: -50px;
+        padding-left: 10px;
+    }
+    .role2{
+        height: 100px;
+        width: 350px;
+    }
+    .role3{
+        height: 100px;
+        width: 350px;
+    }
+    .role4{
+        height: 100px;
+        width: 350px;
+    }
+    .role5{
+        height: 100px;
+        width: 350px;
+    }
+    .role6{
+        height: 100px;
+        width: 350px;
+    }
+    .role7{
+        height: 100px;
+        width: 350px;
+    }
+    .role8{
+        height: 100px;
+        width: 350px;
+    }
+    footer{
+        display: flex;
+        padding-top: 30px;
+    }
+    .all{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border: solid black 1px;
+        background-color: black;
+        width: 400px;
+        height: 300px;
+    }
+    .links a{
+        color: white;
+    }
+    .all p{
+        color: white;
+    }
+    .final{
+        display: flex;
+        width: 130px;
+        height: 25px;  
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    .pictures{
+        display: flex;
+        padding-left: 130px;
+        padding-top: 20px;
+        gap: 10px;
+    }
+    .all p{
+        display: flex;
+        padding-top: 20px;
+    }
+
+    
+
+
+
+
 
 
 
